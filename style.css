@@ -1,0 +1,33 @@
+table,th,td {
+  border-collapse: collapse;
+  border: solid black 1px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: 10px;
+  background-color: bisque;
+  padding: 30px;
+  border-radius: 10px;
+}
+.student-form table {
+  padding: 10px;
+}
+.studentDetails {
+  margin-top: 10px;
+}
+#courseInput{
+    width: 100%;
+}
+#btn{
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.deleteActionBtn{
+    background-color: red;
+
+}

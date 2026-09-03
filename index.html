@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studetn Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>STUDENT FORM</h1>
+      <div class="student-form">
+        <table>
+          <tr>
+            <th>Name</th>
+            <td><input id="nameInput" type="text" placeholder="Enter valid name"/></td>
+          </tr>
+          <tr>
+            <th>Age</th>
+            <td><input id="ageInput" type="number"placeholder="your age"/></td>
+          </tr>
+          <tr>
+            <th>Gender</th>
+            <td>
+              <input id="genderInputMale" type="radio" name="gender" value="Male" />Male
+              <input id="genderInputFemale" type="radio" name="gender" value="Female"/> Female
+            </td>
+          </tr>
+          <tr>
+            <th>Courses</th>
+            <td>
+              <select id="courseInput">
+                <option value="">~ none</option>
+                <option>Web-Development</option>
+                <option>Python</option>
+                <option>Embedded and Iot</option>
+                <option>Auto CAD</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>E-mail</th>
+            <td><input id="emailInput" type="email" placeholder="Enter valid email" /></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <button id="btn">save</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="studentDetails">
+        <table id="studentTable">
+          <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>GENDER</th>
+            <th>COURSES </th>
+            <th>EMAIL</th>
+            <th>ACTION</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
