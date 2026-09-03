@@ -17,7 +17,6 @@ A comprehensive web-based student registration and information management system
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Configuration](#configuration)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -36,14 +35,9 @@ The Student Form is a user-friendly application designed to streamline the proce
 - **Form Validation**: Real-time validation of student information
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
 - **Student Information Collection**:
-  - Personal details (name, email, phone, date of birth)
-  - Educational background
+  - Personal details (name, age, gender, email)
   - Course/program selection
-  - Address information
-  - Additional remarks or preferences
 - **Data Storage**: Secure storage of submitted student information
-- **Search & Filter**: Easily search and filter student records
-- **Export Functionality**: Export student data in various formats
 - **Error Handling**: Comprehensive error messages for better user experience
 
 ---
@@ -54,16 +48,7 @@ The Student Form is a user-friendly application designed to streamline the proce
   - HTML5
   - CSS3
   - JavaScript (ES6+)
-  
-- **Backend** (if applicable):
-  - [Add your backend technology here]
 
-- **Database** (if applicable):
-  - [Add your database here]
-
-- **Other Tools**:
-  - [Git & GitHub for version control]
-  - [Add any other tools/libraries used]
 
 ---
 
@@ -92,8 +77,6 @@ The Student Form is a user-friendly application designed to streamline the proce
    # Then navigate to http://localhost:8000
    ```
 
-3. **[Add any additional setup steps if needed]**
-
 ---
 
 ## 💻 Usage
@@ -111,12 +94,11 @@ The Student Form is a user-friendly application designed to streamline the proce
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | Full Name | Text | Yes | Student's full name |
-| Email | Email | Yes | Valid email address |
-| Phone | Number | Yes | Contact phone number |
-| Date of Birth | Date | Yes | Student's date of birth |
-| Address | Text | No | Residential address |
+| Age | Number | Yes | Student's age |
+| Gender | Radio | Yes | Student's gender|
 | Course | Dropdown | Yes | Select desired course |
-| Remarks | Textarea | No | Additional comments |
+| Email | Email | Yes | Valid email address |
+| Save | Button | Yes | Save's data in the below table (if valid) |
 
 ---
 
@@ -125,14 +107,10 @@ The Student Form is a user-friendly application designed to streamline the proce
 ```
 Student-Form/
 ├── index.html              # Main HTML file
-├── css/
-│   └── style.css          # Styling
-├── js/
-│   └── script.js          # JavaScript functionality
-├── assets/
-│   └── images/            # Images and graphics
-├── README.md              # This file
-└── LICENSE                # License information
+├── style.css               # Styling
+├── script.js               # JavaScript functionality
+├── README.md               # This file
+└── LICENSE                 # License information
 ```
 
 ---
@@ -155,15 +133,6 @@ To customize the form fields and validation rules, edit the following:
   <input type="text" id="newField" name="newField" required>
 </div>
 ```
-
----
-
-## 📸 Screenshots
-
-<!-- Add your screenshots here -->
-- **Screenshot 1**: Form Overview
-- **Screenshot 2**: Form Submission
-- **Screenshot 3**: Confirmation Page
 
 ---
 
@@ -193,7 +162,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Author**: SherwinjClitus
 
 - **GitHub**: [@SherwinjClitus](https://github.com/SherwinjClitus)
-- **Email**: [Add your email here]
+- **Email**: [sherwinjclitus@gmail.com]
 - **Project Link**: [https://github.com/SherwinjClitus/Student-Form](https://github.com/SherwinjClitus/Student-Form)
 
 ---
@@ -202,7 +171,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Thanks to all contributors
 - Inspired by modern form design principles
-- [Add any other acknowledgments]
 
 ---
 
