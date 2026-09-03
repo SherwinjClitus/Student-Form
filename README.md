@@ -4,7 +4,7 @@ A comprehensive web-based student registration and information management system
 
 ## 🌐 Live Link
 
-[https://sherwinjclitus.github.io/Student-Form/](#) <!-- Add your live demo link here -->
+[CLICK FOR LIVE LINK](https://sherwinjclitus.github.io/Student-Form/) <!-- Add your live demo link here -->
 
 ---
 
@@ -163,7 +163,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **GitHub**: [@SherwinjClitus](https://github.com/SherwinjClitus)
 - **Email**: [sherwinjclitus@gmail.com]
-- **Project Link**: [https://sherwinjclitus.github.io/Student-Form/]
+- **Project Link**: [CLICK FOR LIVE LINK](https://sherwinjclitus.github.io/Student-Form/)
 
 ---
 
